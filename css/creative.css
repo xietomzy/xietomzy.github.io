@@ -12,6 +12,7 @@ html {
 
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  background-color: whitesmoke;
 }
 
 hr {
@@ -40,7 +41,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, serif;
+  font-family: Georgia, serif;
   color: #212529;
 }
 
@@ -300,7 +301,7 @@ header.masthead p {
 .btn {
   font-weight: 700;
   text-transform: uppercase;
-  border: none;
+  border: outset;
   border-radius: 300px;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
