@@ -12,7 +12,7 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" rel="stylesheet">
-    <link href="css/creative.min.css" rel="stylesheet">
+    <link href="css/creative.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
@@ -47,7 +47,7 @@
       </div>
     </nav>
 
-    <header class="masthead text-center text-black d-flex">
+    <header class="masthead text-center text-white d-flex">
       <div class="container my-auto">
         <div class="row">
           <div class="col-lg-10 mx-auto">
@@ -77,7 +77,7 @@
             <h2 class="section-heading">About Me</h2>
             <hr class="my-4">
           <div class="column">
-            <img src="img/aboutme.jpeg" align="right" style="width:130px;height:130px;"></img>
+            <img src="img/aboutme.jpeg" class="right" style="width:130px;height:130px;"></img>
           </div>
           <div class="column">
             <h5 class="mb-4 text-left">Hello! My name is Tom Xie and I am a second year EECS (Electrical Engineering and Computer Science) major at UC Berkeley. I'm an aspiring software engineer with a drive to learn new things and apply that knowledge to a real-world context.</h5>
@@ -97,14 +97,14 @@
         <div class="row no-gutters">
           <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="https://github.com/kevin-lii/kevin-lii-Portfolio/tree/master/Amazon">
-              <img class="img-fluid" src="img/amazons.png" align="middle">
+              <img class="img-fluid" src="img/cs162bean.png" style="width:350px;height:350px">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Amazons
+                    Pintos OS
                   </div>
                   <div class="project-name">
-                    Created a represenation and AI for the board game Amazons.
+                    Developed extensions for a simple OS including user program management, multi-thread scheduling, and fast file system
                   </div>
                 </div>
               </div>
@@ -112,14 +112,14 @@
           </div>
           <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="https://github.com/kevin-lii/kevin-lii-Portfolio/tree/master/Lost%20(mazerunner)">
-              <img class="img-fluid" src="img/lost.JPG" alt="" align="middle">
+              <img class="img-fluid" src="img/MNIST.png" alt="" style="width:350px;height:350px">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Lost
+                    Number Classify
                   </div>
                   <div class="project-name">
-                    Created a game that randomly generates a map with different features for users to navigate through.
+                    Implemented a simple artificial neural network using RISC-V assembly code to classify a handwritten digit as a number from 0 to 9
                   </div>
                 </div>
               </div>
@@ -127,14 +127,14 @@
           </div>
           <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="https://github.com/kevin-lii/kevin-lii-Portfolio/tree/master/scheme">
-              <img class="img-fluid" src="img/scheme.JPG">
+              <img class="img-fluid" src="img/bruhmomentthegame.png" style="width:350px;height:350px">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Scheme
+                    Robot Collector: World Exploration Engine
                   </div>
                   <div class="project-name">
-                    Developed an interpreter for a subset of the Scheme language using Python.
+                    Designed and implemented a Java engine that generates random 2D tile-based worlds incorporating interactive mechanics such as moving robot sprites and limited player vision to create a fun game
                   </div>
                 </div>
               </div>
@@ -147,26 +147,27 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading">Volunteer Experience</h2>
+            <h2 class="section-heading">Work/Volunteer Experience</h2>
             <hr class="my-4">
           </div>
         </div>
         <div class="row">
+          <div class="col-lg-4 mr-auto text-center">
+            <img src="img/eecs.jpg" style="width:100px;height:100px"></img>
+            <h5>
+              <a href="https://inst.eecs.berkeley.edu/~ee16b/sp20/">UC Berkeley EECS Department</a> - EE 16B Lab Assistant (Jan 2020 - May 2020)
+            </h5>
+            <!--<h4><a href="https://github.com/kevin-lii/kevin-lii-Portfolio/tree/master/VSP%20Internship">Sample Portfolio</a></h4>-->
+          </div>
           <div class="col-lg-4 ml-auto text-center">
             <img src="img/cs61b.png" style="width:100px;height:100px;"></img>
-            <h5><a href="http://www.aildoo.com/">UC EECS Department</a> - CS 61B Academic Intern (August 2019 - present)</h5>
+            <h5><a href="http://www-inst.eecs.berkeley.edu/~cs61b/sp20/">UC Berkeley EECS Department</a> - CS 61B Academic Intern (August 2019 - May 2020)</h5>
           </div>
           <div class="col-lg-4 ml-auto text-center">
             <img src="img/ybb.jpg" style="width:100px;height:100px;"></img>
             <h5><a href="https://www.youthbuildingbridges.org/">YBB (Youth Building Bridges)</a> - Intern/Teacher (June 2019 - July 2019)</h5>
           </div>
-          <!-- <div class="col-lg-4 mr-auto text-center">
-            <img src="img/vsp-logo.gif"></img>
-            <h5>
-              <a href="https://vsp.com/">VSP</a> - Software Engineer Intern / IT Intern (June 2018 - Aug 2018)
-            </h5>
-            <h4><a href="https://github.com/kevin-lii/kevin-lii-Portfolio/tree/master/VSP%20Internship">Sample Portfolio</a></h4>
-          </div> -->
+          
         </div>
       </div>
     </section>
